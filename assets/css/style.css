@@ -205,6 +205,39 @@ list-style: none;
     margin-top: -205px;
 }
 
+/* Footer Top Section */
+.footer-top-section{
+    width: auto;
+    padding: 0px 100px;
+    height: 300px;
+    margin-top: 290px;
+    align-items: center;
+    justify-content: center;
+}
+.fs-cards{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.fs-card{
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 60px;
+    padding: 3px 5px;
+    border-radius: 48px;
+}
+.fs-card img{
+    width: 40px;
+    height: 40px;
+}
+.fs-card h3{
+    font-size: 16px;
+    padding-left: 5px;
+}
+.fs-card:hover{
+border: 1px solid rgb(218, 14, 218);
+}
 
 
 /* Footer Section Style */
