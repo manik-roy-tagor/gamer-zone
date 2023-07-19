@@ -172,6 +172,40 @@ list-style: none;
 }
 
 
+/* Special Features Section Style */
+
+
+.special-feature-section{
+    display: flex;
+    height: 500px;
+    padding: 0px 100px;
+}
+.left-feature{
+    display: grid;
+    align-items: center;
+    text-align: right;
+    padding: 100px;
+}
+.left-feature h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+.right-feature.base-img{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+.rel-img img{
+    width: 220px;
+    height: 250px;
+    margin-left: -120px;
+    margin-top: -205px;
+}
+
+
 
 /* Footer Section Style */
 .footer-section{
