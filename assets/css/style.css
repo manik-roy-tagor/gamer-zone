@@ -202,7 +202,8 @@ list-style: none;
     text-align: right;
     padding: 100px;
 }
-.left-feature h2{
+.left-feature .txt1{
+    display: block;
     text-align: right;
     font-family: Work Sans;
     font-size: 43px;
@@ -439,50 +440,65 @@ border: 1px solid rgb(218, 14, 218);
 /* Special Features Section Responsive */
 
 .special-feature-section{
-    display: none;
+    display: grid;
+    /* display: none; */
     grid-template-columns: 1fr;
     margin-top: 1000px;
+    padding: 0px 30px;
 }
-/* .left-feature{
+.left-feature{
+    width: auto;
     display: grid;
     align-items: center;
     text-align: center;
 }
-.left-feature h2{
-    display: none;
-    text-align: right;
+.left-feature .txt1{
+    display: flex;
+    align-items: start;
+    text-align: center;
     font-family: Work Sans;
-    font-size: 43px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 60px; 
 }
-.left-feature > p{
+.left-feature .sf-desc{
+    display: none;
+   width: 420px;
+   margin: auto;
+}
+/* .left-feature > p{
     text-align: center;
     font-family: Work Sans;
     width: 420px;
     margin: auto;
-}
+} */
+
 .right-feature .base-img{
     width: 420px;
     height: 425px;
     position: relative;
 }
-.right-feature .base-img img{
-    width: 400px;
-    height: 405px;
+.base-img .base-image{
+    width: 300px;
+    height: 305px;
+    margin: auto;
 }
 .rel-img img{
-    display: none;
-    width: 220px;
+     display: none;
+  /* width: 220px;
     height: 250px;
-    margin-left: -120px;
-    margin-top: -205px;
-} */
+    margin-left: 0px;
+    margin-top: -205px;  */
+} 
+
+
+
+/* Footer Top Section Style */
 .footer-top-section{
-    width: 425px;
+    width: 420px;
     padding: 0px 10px;
     height: 200px;
-    margin-top: 1100px;
+    margin-top: 1070px;
     align-items: center;
     justify-content: center;
 }
@@ -522,6 +538,10 @@ border: 1px solid rgb(218, 14, 218);
     display: grid;  
     justify-content: center;
     gap: 20px;
+}
+.footer-logo img{
+    width: 50%;
+    margin: auto;
 }
 .footer-logo h2{
     text-align: center;
